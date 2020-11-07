@@ -241,7 +241,7 @@ def filtering_stream_data():
                 read_row=int(read_row[0])
             try:
                 chunk = pd.read_csv(
-                    "/home/shashank/workspace/trade/task2/ProjectDir/master/Doc.csv",
+                    "/Dumper/DUMP_Doc_1.csv",
                     header=None,
                     chunksize=1000000,
                     skiprows=read_row
